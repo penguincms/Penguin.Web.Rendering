@@ -2,7 +2,7 @@
   <Import Project="Penguin.Projects.Shared\Penguin.Projects.Shared.csproj" />
   <PropertyGroup>
     <PackageProjectUrl>https://github.com/penguincms/Penguin.Web.Rendering</PackageProjectUrl>
-    <Version>2.0.2</Version>
+    <Version>2.0.3</Version>
 	<IncludeSymbols>true</IncludeSymbols>    
     <Description>A base class for rendering out an instance of an entity into a compilable MVC view using a template to facilitate object binding and HTML generation for dynamic pages and email templates without needing to use  reflection based binding</Description>
   </PropertyGroup>
@@ -10,6 +10,7 @@
     <PackageReference Include="Microsoft.AspNetCore.Hosting" Version="2.2.7" />
     <PackageReference Include="Penguin.Entities.Abstractions" Version="2.0.0" />
     <PackageReference Include="Penguin.Extensions.String" Version="3.0.0" />
+    <PackageReference Include="Penguin.Reflection.Extensions" Version="3.0.2" />
     <PackageReference Include="Penguin.Web.Rendering.Abstractions" Version="2.0.0" />
   </ItemGroup>
 </Project>

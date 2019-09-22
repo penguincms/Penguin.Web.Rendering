@@ -84,12 +84,5 @@
             <param name="FieldName">The name of the field of the entity that this view is intended to bind against used during path generation </param>
             <returns></returns>
         </member>
-        <member name="M:Penguin.Web.Rendering.ObjectRenderer.GetTypeDisplayName(System.Type)">
-            <summary>
-            Converts a Type into a string represention of that type that one would see when actually coding for that type
-            </summary>
-            <param name="type">The type to stringify</param>
-            <returns>The actual code text that would be used to reference that type</returns>
-        </member>
     </members>
 </doc>
