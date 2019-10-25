@@ -9,8 +9,8 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Hosting" Version="2.2.7" />
     <PackageReference Include="Penguin.Entities.Abstractions" Version="2.0.0" />
-    <PackageReference Include="Penguin.Extensions.String" Version="3.0.0" />
-    <PackageReference Include="Penguin.Reflection.Extensions" Version="3.0.2" />
-    <PackageReference Include="Penguin.Web.Rendering.Abstractions" Version="2.0.0" />
+    <PackageReference Include="Penguin.Extensions.String" Version="3.0.2" />
+    <PackageReference Include="Penguin.Reflection.Extensions" Version="3.0.4" />
+    <PackageReference Include="Penguin.Templating.Abstractions" Version="1.0.0" />
   </ItemGroup>
 </Project>

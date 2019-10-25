@@ -1,4 +1,4 @@
 Penguin.Entities.Abstractions
 Penguin.Extensions.String
 Penguin.Reflection.Extensions
-Penguin.Web.Rendering.Abstractions
+Penguin.Templating.Abstractions
