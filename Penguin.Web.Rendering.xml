@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Penguin.Web.Rendering</name>
+    </assembly>
+    <members>
+        <member name="T:Penguin.Web.Rendering.GeneratedTemplateInfo">
+            <summary>
+            Represents the result of creating a view to be used with rendering an object model to a string
+            </summary>
+        </member>
+        <member name="P:Penguin.Web.Rendering.GeneratedTemplateInfo.AbsolutePath">
+            <summary>
+            The absolute path to the generated template
+            </summary>
+        </member>
+        <member name="P:Penguin.Web.Rendering.GeneratedTemplateInfo.RelativePath">
+            <summary>
+            The relative path to the generated template
+            </summary>
+        </member>
+        <member name="P:Penguin.Web.Rendering.GeneratedTemplateInfo.Model">
+            <summary>
+            The constructed object model to pass into the template
+            </summary>
+        </member>
+        <member name="T:Penguin.Web.Rendering.ObjectRenderer">
+            <summary>
+            A base class for rendering out an instance of an entity into a compilable MVC view using a template
+            To facilitate object binding and HTML generation for dynamic pages and email templates without needing to use
+            reflection based binding
+            </summary>
+        </member>
+        <member name="T:Penguin.Web.Rendering.ObjectRenderer.ParameterMeta">
+            <summary>
+            Small class used to hold parameter information in a way that is not
+            reliant on the source (Method/Template)
+            </summary>
+        </member>
+        <member name="P:Penguin.Web.Rendering.ObjectRenderer.ParameterMeta.Name">
+            <summary>
+            The name of the parameter
+            </summary>
+        </member>
+        <member name="P:Penguin.Web.Rendering.ObjectRenderer.ParameterMeta.ParameterType">
+            <summary>
+            The intended type of the parameter
+            </summary>
+        </member>
+        <member name="M:Penguin.Web.Rendering.ObjectRenderer.ParameterMeta.#ctor(System.String,System.Type)">
+            <summary>
+            Constructs a new instance of this class using the supplied information
+            </summary>
+            <param name="name">The name of the parameter</param>
+            <param name="parameterType"> The intended type of the parameter</param>
+        </member>
+        <member name="M:Penguin.Web.Rendering.ObjectRenderer.#ctor(Microsoft.AspNetCore.Hosting.IHostingEnvironment)">
+            <summary>
+            Constructs a new instance of the Object Renderer
+            </summary>
+            <param name="hostingEnvironment">The IHosting environment used to determine the path the Templates should be rendered to (Views/Cache)</param>
+        </member>
+        <member name="M:Penguin.Web.Rendering.ObjectRenderer.BuildPageModel(System.Collections.Generic.IEnumerable{Penguin.Templating.Abstractions.TemplateParameter})">
+            <summary>
+            Takes the supplied parameter values and constructs a Tuple that represents the parameters to use as the model for generating the page
+            </summary>
+            <param name="toGenerate">Contains the information used to define and generate the object model that will be passed into the view when its rendered</param>
+            <returns>A Tuple representing the Model as defined for the new dynamically generated view</returns>
+        </member>
+        <member name="M:Penguin.Web.Rendering.ObjectRenderer.CreateTuple(System.Collections.Generic.IEnumerable{Penguin.Templating.Abstractions.TemplateParameter})">
+            <summary>
+            Constructs a Tuple with the intent of passing into a dynamically generated view for rendering
+            </summary>
+            <param name="toGenerate">Contains the information used to define and generate the object model that will be passed into the view when its rendered</param>
+            <returns>A tuple representing an instance of a model to pass into a dynamically generated view</returns>
+        </member>
+        <member name="M:Penguin.Web.Rendering.ObjectRenderer.GenerateTemplatePath(Penguin.Entities.Abstractions.IAuditableEntity,System.Collections.Generic.IEnumerable{Penguin.Templating.Abstractions.TemplateParameter},System.String,System.String)">
+            <summary>
+            Takes the supplied object and generates a view path based on its Auditable entity properties
+            </summary>
+            <param name="e">The Auditable entity to generate the view based off of.Uses the ID/Guid and the DateModified to determine if the template needs to be updated</param>
+            <param name="toGenerate">Contains the information used to define and generate the object model that will be passed into the view when its rendered</param>
+            <param name="TemplateContents">The text string to inject into the template view, the Body of the view beyond what this system generates for injectable model information</param>
+            <param name="FieldName">The name of the field of the entity that this view is intended to bind against used during path generation </param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
