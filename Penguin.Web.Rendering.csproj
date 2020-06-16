@@ -11,8 +11,8 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Hosting" Version="2.2.7" />
-    <PackageReference Include="Penguin.Templating.Abstractions" Version="1.0.1-T9XWH6X" />
-    <PackageReference Include="Penguin.Entities.Abstractions" Version="2.0.1-T9XWH6X" />
-    <PackageReference Include="Penguin.Reflection.Extensions" Version="3.0.5-T9XWH6X" />
+    <PackageReference Include="Penguin.Templating.Abstractions" Version="1.0.1-T9XYC7H" />
+    <PackageReference Include="Penguin.Entities.Abstractions" Version="2.0.1-T9XYC7H" />
+    <PackageReference Include="Penguin.Reflection.Extensions" Version="3.0.5-T9XYC7H" />
   </ItemGroup>
 </Project>
