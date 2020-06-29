@@ -2,7 +2,7 @@
   <Import Project="Penguin.Projects.Shared\Penguin.Projects.Shared.csproj" />
   <PropertyGroup>
     <PackageProjectUrl>https://github.com/penguincms/Penguin.Web.Rendering</PackageProjectUrl>
-    <Version>2.0.4</Version>
+    <Version>5.0.0</Version>
     <Description>A base class for rendering out an instance of an entity into a compilable MVC view using a template to facilitate object binding and HTML generation for dynamic pages and email templates without needing to use  reflection based binding</Description>
     <TargetFramework>netstandard2.0</TargetFramework>
     <AssemblyName>Penguin.Web.Rendering</AssemblyName>
