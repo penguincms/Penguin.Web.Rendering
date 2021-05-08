@@ -13,6 +13,6 @@
     <PackageReference Include="Microsoft.AspNetCore.Hosting" Version="2.2.7" />
     <PackageReference Include="Penguin.Templating.Abstractions" Version="5.0.4" />
     <PackageReference Include="Penguin.Entities.Abstractions" Version="5.0.4" />
-    <PackageReference Include="Penguin.Reflection.Extensions" Version="5.0.4" />
+    <PackageReference Include="Penguin.Reflection.Extensions" Version="5.0.6-TAEO1KM" />
   </ItemGroup>
 </Project>
