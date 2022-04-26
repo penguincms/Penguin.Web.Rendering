@@ -4,7 +4,7 @@
     <PackageProjectUrl>https://github.com/PenguinCMS/Penguin.Web.Rendering</PackageProjectUrl>
     <Version>5.0.5</Version>
     <Description>A base class for rendering out an instance of an entity into a compilable MVC view using a template to facilitate object binding and HTML generation for dynamic pages and email templates without needing to use  reflection based binding</Description>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFrameworks>netstandard2.0;netstandard2.1;net5.0</TargetFrameworks>
     <AssemblyName>Penguin.Web.Rendering</AssemblyName>
     <RootNamespace>Penguin.Web.Rendering</RootNamespace>
     <DocumentationFile>Penguin.Web.Rendering.xml</DocumentationFile>
