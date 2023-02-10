@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Penguin.Web.Rendering
+﻿namespace Penguin.Web.Rendering
 {
     /// <summary>
     /// Represents the result of creating a view to be used with rendering an object model to a string
@@ -15,6 +11,7 @@ namespace Penguin.Web.Rendering
             RelativePath = relativePath;
             Model = model;
         }
+
         /// <summary>
         /// The absolute path to the generated template
         /// </summary>
