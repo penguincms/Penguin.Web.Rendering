@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <Import Project="Penguin.Projects.Shared\Penguin.Projects.Shared.csproj" />
   <PropertyGroup>
-    <PackageProjectUrl>https://github.com/PenguinCMS/Penguin.Web.Rendering</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/PenguinCms/Penguin.Web.Rendering</PackageProjectUrl>
     <Version>5.0.5</Version>
     <Description>A base class for rendering out an instance of an entity into a compilable MVC view using a template to facilitate object binding and HTML generation for dynamic pages and email templates without needing to use  reflection based binding</Description>
     <TargetFrameworks>netstandard2.1;net7.0</TargetFrameworks>
