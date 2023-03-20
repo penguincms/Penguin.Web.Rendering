@@ -4,6 +4,13 @@
         <name>Penguin.Web.Rendering</name>
     </assembly>
     <members>
+        <member name="M:Penguin.Web.Rendering.Extensions.TypeExtensions.GetDeclaration(System.Type)">
+            <summary>
+            Returns a string that can be used to declare a type in code (ex System.Collections.Generic.List&lt;System.String&gt;)
+            </summary>
+            <param name="type">The type to get the declaration for</param>
+            <returns>The type declaration</returns>
+        </member>
         <member name="T:Penguin.Web.Rendering.GeneratedTemplateInfo">
             <summary>
             Represents the result of creating a view to be used with rendering an object model to a string
